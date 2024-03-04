@@ -1,34 +1,47 @@
 {
   "recipes": [
     {
+      "id": 1,
       "title": "Spaghetti Carbonara",
-      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
-      "thumbnail": "https://example.com/spaghetti_carbonara_thumbnail.jpg",
+      "description": "Classic Italian pasta dish.",
+      "thumbnail": "https://www.artsbakeryglendale.com/cdn/shop/files/image_ade04662-a575-44c0-9c9d-c50ba570d3c8_2000x.jpg?v=1688139090",
       "ingredients": [
         "Spaghetti",
         "Eggs",
-        "Pancetta or guanciale",
-        "Parmesan cheese",
-        "Black pepper",
-        "Salt"
-      ],
-      "cookingInstructions": "1. Cook spaghetti according to package instructions. \n\n2. In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper. \n\n3. In a skillet, cook pancetta until crispy. \n\n4. Drain spaghetti and add it to the skillet with pancetta, toss to coat. \n\n5. Remove skillet from heat and quickly stir in the egg and cheese mixture, ensuring the eggs don't scramble. \n\n6. Serve immediately with additional Parmesan cheese and black pepper."
-    },
-    {
-      "title": "Chicken Alfredo",
-      "description": "Creamy pasta dish made with chicken, Alfredo sauce, and Parmesan cheese.",
-      "thumbnail": "https://example.com/chicken_alfredo_thumbnail.jpg",
-      "ingredients": [
-        "Fettuccine pasta",
-        "Chicken breast",
-        "Heavy cream",
-        "Butter",
-        "Garlic",
-        "Parmesan cheese",
-        "Salt",
+        "Pancetta",
+        "Parmesan",
         "Black pepper"
       ],
-      "cookingInstructions": "1. Cook fettuccine pasta according to package instructions. \n\n2. Season chicken breast with salt and pepper, then cook in a skillet until no longer pink. Set aside. \n\n3. In the same skillet, melt butter and sauté minced garlic until fragrant. \n\n4. Pour in heavy cream and simmer until slightly thickened. \n\n5. Stir in grated Parmesan cheese until melted and smooth. \n\n6. Slice cooked chicken breast and add it back to the skillet, stirring to combine. \n\n7. Serve Alfredo sauce over cooked fettuccine pasta."
+      "cookingInstructions": "Cook spaghetti, fry pancetta, mix with eggs, cheese, and pepper."
+    },
+    {
+      "id": 2,
+      "title": "Chicken Alfredo",
+      "description": "Creamy pasta with chicken.",
+      "thumbnail": "https://breadandwine.ge/wp-content/uploads/2021/11/khinkali-768x461.webp",
+      "ingredients": [
+        "Fettuccine",
+        "Chicken",
+        "Cream",
+        "Butter",
+        "Parmesan",
+        "Garlic"
+      ],
+      "cookingInstructions": "Cook pasta, sauté chicken, mix with cream, butter, and cheese."
+    },
+    {
+      "id": 3,
+      "title": "Margherita Pizza",
+      "description": "Traditional Italian pizza.",
+      "thumbnail": "https://cdn.tasteatlas.com/images/dishrestaurants/ddb99c8c46694993babd6ab972af233d.jpg?w=600",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Mozzarella",
+        "Basil",
+        "Olive oil"
+      ],
+      "cookingInstructions": "Spread sauce on dough, add cheese and basil, bake until crispy."
     }
   ]
 }

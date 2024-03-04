@@ -7,6 +7,9 @@ import { RecipeListComponent } from './components/recipe-list/recipe-list.compon
 import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
 import { RecipeFormComponent } from './components/recipe-form/recipe-form.component';
 import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +18,15 @@ import { HomeComponent } from './components/home/home.component';
     RecipeDetailsComponent,
     RecipeFormComponent,
     HomeComponent,
+    HeaderComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

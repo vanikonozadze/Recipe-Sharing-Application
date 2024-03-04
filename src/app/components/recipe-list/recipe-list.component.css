@@ -7,9 +7,9 @@
 
 .recipe-search {
   width: 400px;
-  height: 30px;
+  height: 40px;
   padding-left: 10px;
-  margin-top: 40px;
+  margin-top: 60px;
   border-radius: 20px;
   border: none;
   outline: none;
@@ -17,6 +17,9 @@
 
 .recipes-container {
   width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 100px;
 }
 
@@ -26,8 +29,9 @@
 }
 
 .recipe-image {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .recipe-box-text {
