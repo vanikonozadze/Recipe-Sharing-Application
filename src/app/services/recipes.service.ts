@@ -18,4 +18,15 @@ export class RecipesService {
   getRecipe(id: string): Observable<Recipe> {
     return this.http.get<Recipe>(this.baseApiUrl + '/' + id);
   }
+
+  addRecipe(recipe: Recipe): Observable<Recipe> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    };
+
+    // Send a POST request to add a new recipe
+    return this.http.post<Recipe>(this.baseApiUrl, recipe, httpOptions);
+  }
 }

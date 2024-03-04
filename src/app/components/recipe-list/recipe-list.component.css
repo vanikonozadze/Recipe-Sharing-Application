@@ -16,15 +16,16 @@
 }
 
 .recipes-container {
-  width: 1200px;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
   align-items: center;
-  margin-top: 100px;
+  gap: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 100px auto;
 }
 
 .recipe-box {
   width: 300px;
+  height: 350px;
   background-color: #fff;
 }
 
@@ -41,4 +42,16 @@
 .recipe-title {
   font-size: 26px;
   margin-bottom: 5px;
+}
+
+.recipe-description {
+  color: rgba(64, 64, 73, 1);
+  word-break: break-all;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 10px;
 }
