@@ -15,7 +15,7 @@ Welcome to Delicious Recipes App, an Angular-based web application for sharing a
    - Seamless functionality for users to manage their recipes, facilitating editing and deletion of posted recipes.
 
 4. **Search Capability**
-   - Dynamic search bar facilitating users to explore recipes effortlessly by title, ingredient, or cuisine.
+   - Dynamic search bar facilitating users to explore recipes effortlessly by title.
 
 5. **Smooth Navigation**
    - Angular Router integration ensuring seamless navigation between different sections of the application, including recipe browsing, recipe details, and recipe submission.
@@ -39,11 +39,6 @@ Welcome to Delicious Recipes App, an Angular-based web application for sharing a
 5. **Validation and Error Handling**
    - Rigorous form validation ensuring data integrity and user input correctness.
    - Clear and concise error messages for enhanced user experience.
-
-## Bonus Feature (Optional)
-
-**Favorites**
-   - Unique functionality allowing users to mark recipes as favorites and curate their personalized collection for quick access.
 
 ## Evaluation Criteria
 
