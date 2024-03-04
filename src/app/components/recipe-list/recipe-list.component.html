@@ -7,19 +7,9 @@
     (input)="filterRecipes()"
   />
   <div class="recipes-container">
-    <div class="recipe-box" *ngFor="let recipe of filteredRecipes">
-      <img
-        src="{{ recipe.thumbnail }}"
-        alt="recipe image"
-        class="recipe-image"
-      />
-      <div class="recipe-box-text">
-        <p class="recipe-title">{{ recipe.title }}</p>
-        <p class="recipe-description">
-          {{ recipe.description }}
-        </p>
-        <a [routerLink]="['/recipes', recipe.id]">View</a>
-      </div>
-    </div>
+    <app-recipe
+      *ngFor="let recipe of filteredRecipes"
+      [element]="recipe"
+    ></app-recipe>
   </div>
 </div>

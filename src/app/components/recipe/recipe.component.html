@@ -1,0 +1,10 @@
+<div class="recipe-box">
+  <img src="{{ element.thumbnail }}" alt="recipe image" class="recipe-image" />
+  <div class="recipe-box-text">
+    <p class="recipe-title">{{ element.title }}</p>
+    <p class="recipe-description">
+      {{ element.description }}
+    </p>
+    <a [routerLink]="['/recipes', element.id]">View</a>
+  </div>
+</div>
