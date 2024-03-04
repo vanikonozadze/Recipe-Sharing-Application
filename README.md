@@ -66,11 +66,3 @@ Welcome to Delicious Recipes App, an Angular-based web application for sharing a
 ## Contributors
 
 - Vaniko Nozadze
-
-## License
-
-This project is licensed under the [License Name] License. [Include license file if applicable]
-
----
-
-Feel free to customize this README template according to your project's specific details and requirements.
