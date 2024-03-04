@@ -1,0 +1,34 @@
+{
+  "recipes": [
+    {
+      "title": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
+      "thumbnail": "https://example.com/spaghetti_carbonara_thumbnail.jpg",
+      "ingredients": [
+        "Spaghetti",
+        "Eggs",
+        "Pancetta or guanciale",
+        "Parmesan cheese",
+        "Black pepper",
+        "Salt"
+      ],
+      "cookingInstructions": "1. Cook spaghetti according to package instructions. \n\n2. In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper. \n\n3. In a skillet, cook pancetta until crispy. \n\n4. Drain spaghetti and add it to the skillet with pancetta, toss to coat. \n\n5. Remove skillet from heat and quickly stir in the egg and cheese mixture, ensuring the eggs don't scramble. \n\n6. Serve immediately with additional Parmesan cheese and black pepper."
+    },
+    {
+      "title": "Chicken Alfredo",
+      "description": "Creamy pasta dish made with chicken, Alfredo sauce, and Parmesan cheese.",
+      "thumbnail": "https://example.com/chicken_alfredo_thumbnail.jpg",
+      "ingredients": [
+        "Fettuccine pasta",
+        "Chicken breast",
+        "Heavy cream",
+        "Butter",
+        "Garlic",
+        "Parmesan cheese",
+        "Salt",
+        "Black pepper"
+      ],
+      "cookingInstructions": "1. Cook fettuccine pasta according to package instructions. \n\n2. Season chicken breast with salt and pepper, then cook in a skillet until no longer pink. Set aside. \n\n3. In the same skillet, melt butter and sauté minced garlic until fragrant. \n\n4. Pour in heavy cream and simmer until slightly thickened. \n\n5. Stir in grated Parmesan cheese until melted and smooth. \n\n6. Slice cooked chicken breast and add it back to the skillet, stirring to combine. \n\n7. Serve Alfredo sauce over cooked fettuccine pasta."
+    }
+  ]
+}
