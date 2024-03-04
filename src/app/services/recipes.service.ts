@@ -26,7 +26,24 @@ export class RecipesService {
       }),
     };
 
-    // Send a POST request to add a new recipe
     return this.http.post<Recipe>(this.baseApiUrl, recipe, httpOptions);
+  }
+
+  deleteRecipe(id: string): Observable<Recipe> {
+    return this.http.delete<Recipe>(`${this.baseApiUrl}/${id}`);
+  }
+
+  editRecipe(recipe: Recipe): Observable<Recipe> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    };
+
+    return this.http.put<Recipe>(
+      `${this.baseApiUrl}/${recipe.id}`,
+      recipe,
+      httpOptions
+    );
   }
 }

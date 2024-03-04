@@ -26,17 +26,14 @@ export class RecipeFormComponent implements OnInit {
     });
   }
 
-  // Getter for ingredients form control
   get ingredients() {
     return this.recipeForm.get('ingredients') as FormArray;
   }
 
-  // Add ingredient input field
   addIngredient() {
     this.ingredients.push(this.formBuilder.control(''));
   }
 
-  // Remove ingredient input field
   removeIngredient(index: number) {
     if (index == 0) {
       alert("Can't remove the first ingredients field!");

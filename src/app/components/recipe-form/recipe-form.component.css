@@ -5,6 +5,10 @@
   height: 100vh;
 }
 
+h1 {
+  text-align: center;
+}
+
 form {
   max-width: 600px;
   width: 100%;
@@ -36,6 +40,7 @@ button {
 }
 
 button.remove-button {
+  width: 100%;
   background-color: #dc3545;
   color: #fff;
 }
@@ -45,12 +50,18 @@ button.remove-button:hover {
 }
 
 button.add-recipe-button {
+  height: 35px;
   background-color: #007bff;
   color: #fff;
 }
 
 button.add-recipe-button:hover {
   background-color: #0056b3;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
 }
 
 button[type="submit"] {

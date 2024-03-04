@@ -1,78 +1,16 @@
 {
   "recipes": [
     {
-      "id": "1",
-      "title": "Spaghetti Carbonara",
-      "description": "Classic Italian pasta dish.",
-      "thumbnail": "https://www.artsbakeryglendale.com/cdn/shop/files/image_ade04662-a575-44c0-9c9d-c50ba570d3c8_2000x.jpg?v=1688139090",
-      "ingredients": [
-        "Spaghetti",
-        "Eggs",
-        "Pancetta",
-        "Parmesan",
-        "Black pepper"
-      ],
-      "cookingInstructions": "Cook spaghetti, fry pancetta, mix with eggs, cheese, and pepper."
-    },
-    {
-      "id": "2",
-      "title": "Chicken Alfredo",
-      "description": "Creamy pasta with chicken.",
-      "thumbnail": "https://breadandwine.ge/wp-content/uploads/2021/11/khinkali-768x461.webp",
-      "ingredients": [
-        "Fettuccine",
-        "Chicken",
-        "Cream",
-        "Butter",
-        "Parmesan",
-        "Garlic"
-      ],
-      "cookingInstructions": "Cook pasta, sauté chicken, mix with cream, butter, and cheese."
-    },
-    {
-      "id": "3",
-      "title": "Margherita Pizza",
-      "description": "Traditional Italian pizza.",
-      "thumbnail": "https://cdn.tasteatlas.com/images/dishrestaurants/ddb99c8c46694993babd6ab972af233d.jpg?w=600",
-      "ingredients": [
-        "Pizza dough",
-        "Tomato sauce",
-        "Mozzarella",
-        "Basil",
-        "Olive oil"
-      ],
-      "cookingInstructions": "Spread sauce on dough, add cheese and basil, bake until crispy."
-    },
-    {
-      "id": "425e",
-      "title": "hello",
-      "description": "khinkali",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Khinkali_551.jpg/1200px-Khinkali_551.jpg",
-      "ingredients": "meat",
-      "cookingInstructions": "very good"
-    },
-    {
-      "id": "2241",
-      "title": "mwvadi",
-      "description": "kai mwvadia kai",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Khinkali_551.jpg/1200px-Khinkali_551.jpg",
+      "id": "b4c3",
+      "title": "khinkali",
+      "description": "khinkali the best",
+      "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/19/dc/6a/37/xinkali.jpg",
       "ingredients": [
         "xorci",
-        "meore xorci",
-        "mesame"
+        "comi",
+        ""
       ],
-      "cookingInstructions": "sakaaifoa zalian"
-    },
-    {
-      "id": "ffc1",
-      "title": "ხაჭაპური",
-      "description": "ხაჭაპური არის ქართული უგემრიელესი საჭმელი",
-      "thumbnail": "data:image/jpeg;base64,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",
-      "ingredients": [
-        "ყველი",
-        "ცომი"
-      ],
-      "cookingInstructions": "მარტივად და კოხტად"
+      "cookingInstructions": "martivad da koxtad"
     }
   ]
 }

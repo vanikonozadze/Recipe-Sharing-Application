@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { RecipeComponent } from './components/recipe/recipe.component';
+import { RecipeUpdateFormComponent } from './components/recipe-update-form/recipe-update-form.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { RecipeComponent } from './components/recipe/recipe.component';
     HomeComponent,
     HeaderComponent,
     RecipeComponent,
+    RecipeUpdateFormComponent,
   ],
   imports: [
     BrowserModule,

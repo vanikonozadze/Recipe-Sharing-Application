@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class RecipeDetailsComponent implements OnInit {
   RecipeDetails: Recipe = {
-    id: 0,
+    id: '',
     title: '',
     description: '',
     thumbnail: '',

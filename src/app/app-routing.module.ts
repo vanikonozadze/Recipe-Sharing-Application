@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
 import { HomeComponent } from './components/home/home.component';
 import { RecipeFormComponent } from './components/recipe-form/recipe-form.component';
+import { RecipeUpdateFormComponent } from './components/recipe-update-form/recipe-update-form.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: 'add-recipe',
     component: RecipeFormComponent,
+  },
+  {
+    path: 'recipes/:id/edit',
+    component: RecipeUpdateFormComponent,
   },
 ];
 

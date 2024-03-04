@@ -35,4 +35,8 @@ export class RecipeListComponent implements OnInit {
       recipe.title.toLowerCase().includes(this.searchTerm.toLowerCase())
     );
   }
+
+  onRecipeDeleted(): void {
+    this.getRecipes(); // Update the recipe array
+  }
 }
